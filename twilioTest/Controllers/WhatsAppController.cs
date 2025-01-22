@@ -17,7 +17,7 @@ namespace twilioTest.Controllers
         public  IActionResult SendMessageTwilio()
         {
             var accountSid = "ACb8293ad8f8ea35cbf11eb4c7e61d595a";
-            var authToken = "cd0aa46abbf126e68ec2462dc7bf3224";
+            var authToken = "bbd805422a34d4560a16ebfcd7ab0310";
             TwilioClient.Init(accountSid, authToken);
 
             var messageOptions = new CreateMessageOptions(
