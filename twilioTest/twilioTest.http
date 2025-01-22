@@ -1,0 +1,6 @@
+@twilioTest_HostAddress = http://localhost:5048
+
+GET {{twilioTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
